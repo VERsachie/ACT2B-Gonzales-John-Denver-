@@ -1,0 +1,38 @@
+<?php
+
+
+/*
+Basic Information 
+Nickname: Ver
+Name: John Denver Gonzales 
+Age: 19
+Address: Malolos city, bulacan.
+Hobbies: Watching movie, playing Basketball etc.
+Dream Job: Web Dev
+Course: Associate in Computer Technology
+School: Bulacan Polytechnic College
+*/
+
+$me = array(
+
+    "name" => "John Denver Gonzales",
+    "age" => 19,
+    "address" => "Malolos city, Bulacan",
+    "hobbies" => "Watching movies, Playing Basketball, etc.",
+    "dream_job" => "Web Dev",
+    "course" => "Associate in Computer Technology",
+    "school" => "Bulacan Polytechnic College"
+);
+
+echo "My Personal Information\n";
+echo "Name: " . $me["name"] . "\n";
+echo "Age: " . $me["age"] . "\n";
+echo "Address: " . $me["address"] . "\n";
+echo "Hobbies: " . $me["hobbies"] . "\n";
+echo "Dream Job: " . $me["dream_job"] . "\n";
+echo "Course: " . $me["course"] . "\n";
+echo "School: " . $me["school"] . "\n\n";
+
+print "I am " . $me["name"] . ", a " . $me["course"] . " student of " . $me["school"] . ".";
+
+?>
